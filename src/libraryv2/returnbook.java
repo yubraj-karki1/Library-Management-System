@@ -57,7 +57,7 @@ public class returnbook extends javax.swing.JFrame {
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(164, 196, 77, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel4.setText("Due Date");
+        jLabel4.setText("Return Date");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(164, 247, 77, -1));
 
         jTextField1.setBackground(new java.awt.Color(255, 255, 204));
