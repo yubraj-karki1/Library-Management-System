@@ -148,9 +148,11 @@
           <Font name="Segoe UI" size="12" style="1"/>
         </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="2">
+          <StringArray count="4">
             <StringItem index="0" value="B.Tech"/>
-            <StringItem index="1" value=" "/>
+            <StringItem index="1" value="Bsc Hons"/>
+            <StringItem index="2" value=" "/>
+            <StringItem index="3" value=" "/>
           </StringArray>
         </Property>
       </Properties>
