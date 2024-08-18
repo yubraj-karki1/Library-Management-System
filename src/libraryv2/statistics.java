@@ -34,6 +34,9 @@ public class statistics extends javax.swing.JFrame {
         jTable2 = new javax.swing.JTable();
         jButton1 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(325, 125));
@@ -92,9 +95,18 @@ public class statistics extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 400, -1, -1));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/123456.png"))); // NOI18N
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jButton2.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        jButton2.setText("Load Issue Details ");
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 418, -1, -1));
+
+        jButton3.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        jButton3.setText("Load Return Details");
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(179, 418, -1, -1));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/123456.png"))); // NOI18N
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -149,9 +161,12 @@ public class statistics extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable jTable1;
